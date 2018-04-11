@@ -1,5 +1,6 @@
 # Ansible Role Project Template
 
+[![Build Status](https://travis-ci.org/mtmiller/ansible-role-template.svg?branch=master)](https://travis-ci.org/mtmiller/ansible-role-template)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 This is a basic Ansible role template that can be used as a starting point for
