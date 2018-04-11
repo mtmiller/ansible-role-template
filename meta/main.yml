@@ -1,0 +1,33 @@
+---
+galaxy_info:
+  author: Mike Miller
+  description: Ansible role template
+  license: MIT
+  min_ansible_version: 2.1
+  platforms:
+    - name: Debian
+      versions:
+        - wheezy
+        - jessie
+        - stretch
+        - buster
+        - sid
+    - name: EL
+      versions:
+        - 5
+        - 6
+        - 7
+    - name: Fedora
+      versions:
+        - 26
+        - 27
+        - 28
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - zesty
+        - artful
+        - bionic
+  galaxy_tags: []
+dependencies: []
