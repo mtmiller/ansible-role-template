@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python-pip \
  && rm -rf /var/lib/apt/lists/*
 
-RUN pip install --upgrade setuptools && pip install ansible
+RUN pip install --index-url https://pypi.python.org/simple --upgrade pip
+RUN pip install ansible
 
 RUN mkdir -p /etc/ansible && echo "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
 
